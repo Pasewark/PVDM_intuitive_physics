@@ -1,0 +1,187 @@
+[2023-04-10 18:27:41.194316] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, n_gpus=2, ddconfig={'double_z': False, 'channels': 384, 'resolution': 256, 'timesteps': 16, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=256, timesteps=16, skip=1, resume=False, amp=True)
+[2023-04-10 18:27:41.194467] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 18:27:41.194477] Loading dataset UCF101 with resolution 256
+[2023-04-10 18:48:26.631081] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 384, 'resolution': 256, 'timesteps': 16, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=256, timesteps=16, skip=1, resume=False, amp=True)
+[2023-04-10 18:48:26.631174] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 18:48:26.631184] Loading dataset UCF101 with resolution 256
+[2023-04-10 18:48:26.631190] Generating model
+[2023-04-10 21:26:25.858105] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 384, 'resolution': 256, 'timesteps': 16, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=256, timesteps=16, skip=1, resume=False, amp=True)
+[2023-04-10 21:26:25.858204] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 21:26:25.858215] Loading dataset UCF101 with resolution 256
+[2023-04-10 21:26:25.858221] Generating model
+[2023-04-10 21:27:12.818255] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 384, 'resolution': 256, 'timesteps': 16, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=256, timesteps=16, skip=1, resume=False, amp=True)
+[2023-04-10 21:27:12.818351] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 21:27:12.818380] Loading dataset UCF101 with resolution 256
+[2023-04-10 21:27:12.818386] Generating model
+[2023-04-10 21:27:59.638270] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 384, 'resolution': 256, 'timesteps': 16, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=256, timesteps=16, skip=1, resume=False, amp=True)
+[2023-04-10 21:27:59.638396] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 21:27:59.638424] Loading dataset UCF101 with resolution 256
+[2023-04-10 21:27:59.638434] Generating model
+[2023-04-10 21:29:56.926424] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 384, 'resolution': 256, 'timesteps': 16, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=256, timesteps=16, skip=1, resume=False, amp=True)
+[2023-04-10 21:29:56.926557] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 21:29:56.926585] Loading dataset UCF101 with resolution 256
+[2023-04-10 21:29:56.926592] Generating model
+[2023-04-10 21:32:12.609179] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 384, 'resolution': 256, 'timesteps': 16, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=256, timesteps=16, skip=1, resume=False, amp=True)
+[2023-04-10 21:32:12.609310] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 21:32:12.609340] Loading dataset UCF101 with resolution 256
+[2023-04-10 21:32:12.609346] Generating model
+[2023-04-10 21:33:14.294900] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 384, 'resolution': 256, 'timesteps': 16, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=256, timesteps=16, skip=1, resume=False, amp=True)
+[2023-04-10 21:33:14.295032] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 21:33:14.295061] Loading dataset UCF101 with resolution 256
+[2023-04-10 21:33:14.295068] Generating model
+[2023-04-10 21:35:28.339627] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 384, 'resolution': 256, 'timesteps': 16, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=256, timesteps=16, skip=1, resume=False, amp=True)
+[2023-04-10 21:35:28.339723] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 21:35:28.339735] Loading dataset UCF101 with resolution 256
+[2023-04-10 21:35:28.339741] Generating model
+[2023-04-10 21:39:03.736270] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 384, 'resolution': 256, 'timesteps': 16, 'skip': 1, 'in_channels': 4, 'out_ch': 4, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=256, timesteps=16, skip=1, resume=False, amp=True)
+[2023-04-10 21:39:03.736406] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 21:39:03.736434] Loading dataset UCF101 with resolution 256
+[2023-04-10 21:39:03.736441] Generating model
+[2023-04-10 21:44:00.130491] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 384, 'resolution': 64, 'timesteps': 16, 'skip': 1, 'in_channels': 4, 'out_ch': 4, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=16, skip=1, resume=False, amp=True)
+[2023-04-10 21:44:00.130588] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 21:44:00.130600] Loading dataset UCF101 with resolution 64
+[2023-04-10 21:44:00.130607] Generating model
+[2023-04-10 21:45:39.469836] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 384, 'resolution': 64, 'timesteps': 16, 'skip': 1, 'in_channels': 4, 'out_ch': 4, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=16, skip=1, resume=False, amp=True)
+[2023-04-10 21:45:39.469968] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 21:45:39.469997] Loading dataset UCF101 with resolution 64
+[2023-04-10 21:45:39.470003] Generating model
+[2023-04-10 21:48:33.738331] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 384, 'resolution': 64, 'timesteps': 16, 'skip': 1, 'in_channels': 4, 'out_ch': 4, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=16, skip=1, resume=False, amp=True)
+[2023-04-10 21:48:33.738432] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 21:48:33.738445] Loading dataset UCF101 with resolution 64
+[2023-04-10 21:48:33.738451] Generating model
+[2023-04-10 21:51:14.154462] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 384, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 4, 'out_ch': 4, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-10 21:51:14.154593] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 21:51:14.154623] Loading dataset UCF101 with resolution 64
+[2023-04-10 21:51:14.154630] Generating model
+[2023-04-10 21:55:00.454295] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 384, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 4, 'out_ch': 4, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-10 21:55:00.454399] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 21:55:00.454411] Loading dataset UCF101 with resolution 64
+[2023-04-10 21:55:00.454417] Generating model
+[2023-04-10 21:55:45.979705] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 384, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 4, 'out_ch': 4, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-10 21:55:45.979831] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 21:55:45.979858] Loading dataset UCF101 with resolution 64
+[2023-04-10 21:55:45.979865] Generating model
+[2023-04-10 21:58:03.693484] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 384, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 4, 'out_ch': 4, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-10 21:58:03.693577] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 21:58:03.693605] Loading dataset UCF101 with resolution 64
+[2023-04-10 21:58:03.693611] Generating model
+[2023-04-10 22:04:33.584481] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 384, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 4, 'out_ch': 4, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-10 22:04:33.584607] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 22:04:33.584635] Loading dataset UCF101 with resolution 64
+[2023-04-10 22:04:33.584641] Generating model
+[2023-04-10 22:05:35.805868] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 384, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 4, 'out_ch': 4, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-10 22:05:35.805964] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 22:05:35.805975] Loading dataset UCF101 with resolution 64
+[2023-04-10 22:05:35.805981] Generating model
+[2023-04-10 22:06:34.499886] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 4, 'out_ch': 4, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-10 22:06:34.499981] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 22:06:34.499992] Loading dataset UCF101 with resolution 64
+[2023-04-10 22:06:34.499998] Generating model
+[2023-04-10 22:08:05.753007] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 4, 'out_ch': 4, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-10 22:08:05.753107] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 22:08:05.753118] Loading dataset UCF101 with resolution 64
+[2023-04-10 22:08:05.753124] Generating model
+[2023-04-10 22:09:54.218552] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 4, 'out_ch': 4, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-10 22:09:54.218683] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-10 22:09:54.218695] Loading dataset UCF101 with resolution 64
+[2023-04-10 22:09:54.218702] Generating model
+[2023-04-11 17:19:50.337959] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-11 17:19:50.338276] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-11 17:19:50.338304] Loading dataset UCF101 with resolution 64
+[2023-04-11 17:19:50.338310] Generating model
+[2023-04-11 17:23:29.156179] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-11 17:23:29.156274] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-11 17:23:29.156285] Loading dataset UCF101 with resolution 64
+[2023-04-11 17:23:29.156290] Generating model
+[2023-04-11 17:23:37.190781] [Time 6.215] [AELoss 2.086648] [DLoss 0.000000]
+[2023-04-11 17:24:32.803016] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-11 17:24:32.803122] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-11 17:24:32.803134] Loading dataset UCF101 with resolution 64
+[2023-04-11 17:24:32.803141] Generating model
+[2023-04-11 17:24:41.743094] [Time 7.139] [AELoss 2.257781] [DLoss 0.000000]
+[2023-04-11 17:25:16.540088] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-11 17:25:16.540182] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-11 17:25:16.540193] Loading dataset UCF101 with resolution 64
+[2023-04-11 17:25:16.540199] Generating model
+[2023-04-11 17:25:25.564789] [Time 7.209] [AELoss 2.088655] [DLoss 0.000000]
+[2023-04-11 17:26:49.098305] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-11 17:26:49.098399] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-11 17:26:49.098410] Loading dataset UCF101 with resolution 64
+[2023-04-11 17:26:49.098416] Generating model
+[2023-04-11 17:26:57.306374] [Time 6.385] [AELoss 2.223362] [DLoss 0.000000]
+[2023-04-11 17:28:08.568806] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-11 17:28:08.568904] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-11 17:28:08.568914] Loading dataset UCF101 with resolution 64
+[2023-04-11 17:28:08.568920] Generating model
+[2023-04-11 17:28:17.194381] [Time 6.829] [AELoss 2.007360] [DLoss 0.000000]
+[2023-04-11 17:29:14.477668] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-11 17:29:14.477767] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-11 17:29:14.477776] Loading dataset UCF101 with resolution 64
+[2023-04-11 17:29:14.477783] Generating model
+[2023-04-11 17:29:23.075744] [Time 6.760] [AELoss 2.155731] [DLoss 0.000000]
+[2023-04-11 17:33:08.473903] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=64, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-11 17:33:08.473996] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-11 17:33:08.474006] Loading dataset UCF101 with resolution 64
+[2023-04-11 17:33:08.474011] Generating model
+[2023-04-11 17:33:16.784899] [Time 6.479] [AELoss 2.156397] [DLoss 0.000000]
+[2023-04-11 17:38:26.965570] [Time 316.660] [AELoss 0.960031] [DLoss 0.000000]
+[2023-04-11 17:43:09.421413] [Time 599.116] [AELoss 0.753575] [DLoss 0.000000]
+[2023-04-11 17:43:32.808016] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-11 17:43:32.808113] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-11 17:43:32.808123] Loading dataset UCF101 with resolution 64
+[2023-04-11 17:43:32.808130] Generating model
+[2023-04-11 17:44:29.266846] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=8, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-11 17:44:29.266943] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-11 17:44:29.266954] Loading dataset UCF101 with resolution 64
+[2023-04-11 17:44:29.266960] Generating model
+[2023-04-11 18:07:11.053128] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=64, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-11 18:07:11.053233] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-11 18:07:11.053243] Loading dataset UCF101 with resolution 64
+[2023-04-11 18:07:11.053250] Generating model
+[2023-04-11 18:07:30.741124] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=64, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-11 18:07:30.741221] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-11 18:07:30.741231] Loading dataset UCF101 with resolution 64
+[2023-04-11 18:07:30.741237] Generating model
+[2023-04-11 18:08:34.004426] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=64, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-11 18:08:34.004520] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-11 18:08:34.004530] Loading dataset UCF101 with resolution 64
+[2023-04-11 18:08:34.004537] Generating model
+[2023-04-11 18:08:42.880509] [Time 6.999] [AELoss 2.059538] [DLoss 0.000000]
+[2023-04-11 18:25:01.595090] [Time 985.713] [AELoss 0.884387] [DLoss 0.000000]
+[2023-04-11 18:41:07.947410] [Time 1952.066] [AELoss 0.671739] [DLoss 0.000000]
+[2023-04-11 18:56:50.606277] [Time 2894.725] [AELoss 0.557225] [DLoss 0.000000]
+[2023-04-11 19:12:56.050775] [Time 3860.169] [AELoss 0.488242] [DLoss 0.000000]
+[2023-04-11 19:53:11.168849] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=32, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-11 19:53:11.169001] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-11 19:53:11.169019] Loading dataset UCF101 with resolution 64
+[2023-04-11 19:53:11.169029] Generating model
+[2023-04-11 19:53:20.917521] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=32, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-11 19:53:20.917617] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-11 19:53:20.917627] Loading dataset UCF101 with resolution 64
+[2023-04-11 19:53:20.917633] Generating model
+[2023-04-11 19:53:29.460419] [Time 6.671] [AELoss 2.123800] [DLoss 0.000000]
+[2023-04-11 20:09:56.220475] [Time 993.431] [AELoss 0.880597] [DLoss 0.000000]
+[2023-04-11 20:25:41.336737] [Time 1938.548] [AELoss 0.666574] [DLoss 0.000000]
+[2023-04-11 20:41:22.142077] [Time 2879.353] [AELoss 0.555903] [DLoss 0.000000]
+[2023-04-11 20:57:02.788562] [Time 3820.000] [AELoss 0.488692] [DLoss 0.000000]
+[2023-04-12 13:20:28.174839] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=32, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-12 13:20:28.175112] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-12 13:20:28.175123] Loading dataset UCF101 with resolution 64
+[2023-04-12 13:20:28.175129] Generating model
+[2023-04-12 13:20:51.846801] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=32, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-12 13:20:51.846901] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-12 13:20:51.846912] Loading dataset UCF101 with resolution 64
+[2023-04-12 13:20:51.846919] Generating model
+[2023-04-12 13:21:00.795248] [Time 7.154] [AELoss 2.114496] [DLoss 0.000000]
+[2023-04-12 13:38:06.311791] [Time 1032.671] [AELoss 0.879903] [DLoss 0.000000]
+[2023-04-12 13:54:12.218879] [Time 1998.578] [AELoss 0.666767] [DLoss 0.000000]
+[2023-04-12 14:09:40.116301] [Time 2926.475] [AELoss 0.556360] [DLoss 0.000000]
+[2023-04-12 14:22:59.980779] Namespace(exp='first_stage', seed=42, id='main', data='UCF101', batch_size=32, ds=4, pretrain_config='configs/autoencoder/base.yaml', diffusion_config='configs/latent-diffusion/ucf101-ldm-kl-3_res128.yaml', first_stage_folder='', first_model='', scale_lr=False, devicenum='0', n_gpus=1, device=device(type='cuda', index=0), ddconfig={'double_z': False, 'channels': 256, 'resolution': 64, 'timesteps': 15, 'skip': 1, 'in_channels': 3, 'out_ch': 3, 'num_res_blocks': 2, 'attn_resolutions': [], 'splits': 1}, embed_dim=4, lossconfig={'params': {'disc_start': 100000000}}, lr=0.0001, res=64, timesteps=15, skip=1, resume=False, amp=True)
+[2023-04-12 14:22:59.980873] Log path: ./results/first_stage_main_UCF101_42/
+[2023-04-12 14:22:59.980883] Loading dataset UCF101 with resolution 64
+[2023-04-12 14:22:59.980889] Generating model
+[2023-04-12 14:23:08.486507] [Time 6.652] [AELoss 2.092563] [DLoss 0.000000]
+[2023-04-12 14:40:33.467394] [Time 1051.633] [AELoss 0.883276] [DLoss 0.000000]
+[2023-04-12 14:56:07.728011] [Time 1985.894] [AELoss 0.671211] [DLoss 0.000000]
+[2023-04-12 15:11:35.293330] [Time 2913.459] [AELoss 0.559799] [DLoss 0.000000]
+[2023-04-12 15:27:03.451895] [Time 3841.618] [AELoss 0.489847] [DLoss 0.000000]
